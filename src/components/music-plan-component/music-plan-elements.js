@@ -8,6 +8,10 @@ const MusicItem = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: 350px) {
+        margin: 20px 0 25px 0;
+    }
 `
 
 const MusicPlanDetails = styled.div`
