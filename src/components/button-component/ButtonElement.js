@@ -14,6 +14,10 @@ const BtnPrimary = styled.button`
     transition: all 0.5s ease;
     box-shadow: 0 10px 20px 0 rgba(56, 41, 224, 0.25);
     margin-bottom: 12px;
+
+    :hover {
+        background: #766CF1;
+    }
 `
 
 const BtnSecondary = styled.button`

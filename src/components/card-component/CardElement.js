@@ -5,6 +5,10 @@ const CardStyled = styled.div`
     max-width: 350px;
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(56, 41, 224, 0.15);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 `
 
 const CardImg = styled.img`
