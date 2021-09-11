@@ -13,8 +13,8 @@ const Card = () => {
                 <CardBody> 
                     <CardH1 >Order Summary</CardH1>
                     <CardText>You can now listen to millions of songs, <br /> audiobooks, and podcast on any device <br /> anywhere you like!</CardText>
-                    <BtnSecondary>This is Secondary</BtnSecondary>
-                    <BtnPrimary>This is primary</BtnPrimary>
+                    <BtnPrimary>Proceed to Payment</BtnPrimary>
+                    <BtnSecondary>Cancel Order</BtnSecondary>
                 </CardBody>
             </CardStyled>
             

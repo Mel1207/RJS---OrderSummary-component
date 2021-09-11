@@ -5,6 +5,7 @@ const CardStyled = styled.div`
     max-width: 350px;
     border-radius: 20px;
 `
+
 const CardImg = styled.img`
     width: 100%;
     object-fit: contain;
@@ -16,7 +17,7 @@ const CardImg = styled.img`
 const CardH1 = styled.h1`
     font-size: 30px;
     color: #1F2F56;
-    font-weight: 600;
+    font-weight: 900;
     text-align: center;
     margin: 0 0 15px 0;
 `
@@ -28,6 +29,7 @@ const CardText = styled.p`
     line-height: 1.5em;
     text-align: center;
 `
+
 const CardBody = styled.div`
     padding: 30px 20px;
 `
