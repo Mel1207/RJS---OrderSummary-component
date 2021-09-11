@@ -13,7 +13,7 @@ const Card = () => {
                 <CardImg src={CardAvatar}/>
                 <CardBody> 
                     <CardH1 >Order Summary</CardH1>
-                    <CardText>You can now listen to millions of songs, <br /> audiobooks, and podcast on any device <br /> anywhere you like!</CardText>
+                    <CardText>You can now listen to millions of songs, audiobooks, and podcast on any device anywhere you like!</CardText>
                     <MusicPlanItem />
 
                     <BtnPrimary>Proceed to Payment</BtnPrimary>
