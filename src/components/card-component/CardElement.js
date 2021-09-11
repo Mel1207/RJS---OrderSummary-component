@@ -1,8 +1,23 @@
 import styled from 'styled-components'
 
+const ImgOverlay = styled.img`
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50%;
+    /* object-fit: cover; */
+    transition: all 0.5s ease-in;
+
+    @media screen and (max-width: 768px) {
+        object-fit: cover;
+        height: 30%;
+    }
+`
+
 const CardStyled = styled.div`
     background: #fff;
-    max-width: 350px;
+    width: 350px;
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(56, 41, 224, 0.15);
     position: absolute;
@@ -39,4 +54,4 @@ const CardBody = styled.div`
     padding: 30px 20px;
 `
 
-export {CardStyled, CardImg, CardH1, CardText, CardBody}
+export {ImgOverlay, CardStyled, CardImg, CardH1, CardText, CardBody}

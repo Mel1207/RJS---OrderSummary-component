@@ -1,6 +1,7 @@
 import React from 'react'
-import { CardStyled, CardImg, CardH1, CardText, CardBody } from './CardElement'
+import { ImgOverlay,CardStyled, CardImg, CardH1, CardText, CardBody } from './CardElement'
 import CardAvatar from './../../images/illustration-hero.svg'
+import Pattern from './../../images/pattern-background-desktop.svg'
 import { BtnPrimary, BtnSecondary } from '../button-component/ButtonElement'
 import MusicPlanItem from '../music-plan-component'
 
@@ -9,6 +10,7 @@ import MusicPlanItem from '../music-plan-component'
 const Card = () => {
     return (
         <>
+            <ImgOverlay src={Pattern} />
             <CardStyled>
                 <CardImg src={CardAvatar}/>
                 <CardBody> 
@@ -20,7 +22,6 @@ const Card = () => {
                     <BtnSecondary>Cancel Order</BtnSecondary>
                 </CardBody>
             </CardStyled>
-            
         </>
     )
 }
