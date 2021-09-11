@@ -17,7 +17,7 @@ const ImgOverlay = styled.img`
 
 const CardStyled = styled.div`
     background: #fff;
-    width: 350px;
+    width: 400px;
     border-radius: 20px;
     box-shadow: 0 10px 20px 0 rgba(56, 41, 224, 0.15);
     position: absolute;
@@ -55,7 +55,11 @@ const CardText = styled.p`
 `
 
 const CardBody = styled.div`
-    padding: 30px 20px;
+    padding: 30px;
+
+    @media screen and (max-width: 350px) {
+        padding: 30px 20px;
+    }
 `
 
 export {ImgOverlay, CardStyled, CardImg, CardH1, CardText, CardBody}
