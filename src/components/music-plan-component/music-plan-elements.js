@@ -30,4 +30,9 @@ const MusicPrice = styled.p`
     color: #7280A7;
 `
 
-export {MusicItem, MusicPlanName, MusicPrice, MusicPlanDetails, MusicIcon}
+const ActionLink = styled.a`
+    font-weight: 700;
+    font-size: 12px;
+`
+
+export {MusicItem, MusicPlanName, MusicPrice, MusicPlanDetails, MusicIcon, ActionLink}

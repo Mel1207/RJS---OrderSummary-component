@@ -1,5 +1,5 @@
 import React from 'react'
-import { MusicItem, MusicIcon, MusicPlanName, MusicPrice, MusicPlanDetails } from './music-plan-elements'
+import { MusicItem, MusicIcon, MusicPlanName, MusicPrice, MusicPlanDetails, ActionLink } from './music-plan-elements'
 import MscIcon from './../../images/icon-music.svg'
 
 const MusicPlanItem = () => {
@@ -12,7 +12,7 @@ const MusicPlanItem = () => {
                     <MusicPrice>$59.99/year</MusicPrice>
                 </div>
             </MusicPlanDetails>
-            <a href="#!">Change</a>
+            <ActionLink href="#!">Change</ActionLink>
         </MusicItem>
     )
 }
