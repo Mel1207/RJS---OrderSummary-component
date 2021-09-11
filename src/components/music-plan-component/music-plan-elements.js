@@ -33,6 +33,12 @@ const MusicPrice = styled.p`
 const ActionLink = styled.a`
     font-weight: 700;
     font-size: 12px;
+    transition: all 0.2s;
+
+    :hover {
+        text-decoration: none;
+        color: #766CF1;
+    }
 `
 
 export {MusicItem, MusicPlanName, MusicPrice, MusicPlanDetails, MusicIcon, ActionLink}

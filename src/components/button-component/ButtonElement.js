@@ -32,7 +32,11 @@ const BtnSecondary = styled.button`
     font-weight: 900;
     font-family: 'Red Hat Display', sans-serif;
     cursor: pointer;
-    transition: all 0.5s ease;       
+    transition: all 0.5s ease;
+    
+    :hover {
+        color: #1F2F56;
+    }
 `
 
 export {BtnPrimary, BtnSecondary}
