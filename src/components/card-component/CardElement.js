@@ -24,6 +24,10 @@ const CardStyled = styled.div`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @media screen and (max-width: 350px) {
+        width: 300px;
+    }
 `
 
 const CardImg = styled.img`
