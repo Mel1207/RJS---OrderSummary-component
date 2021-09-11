@@ -4,6 +4,7 @@ const CardStyled = styled.div`
     background: #fff;
     max-width: 350px;
     border-radius: 20px;
+    box-shadow: 0 10px 20px 0 rgba(56, 41, 224, 0.15);
 `
 
 const CardImg = styled.img`
